@@ -187,6 +187,7 @@ public class ListingFragment extends Fragment implements SearchView.OnQueryTextL
         if (InternetController.isNetworkConnected(getActivity())) {
             getData();
         } else {
+            progressBar.setVisibility(View.GONE);
             Toast.makeText(getActivity(), "Please check your internet connection", Toast.LENGTH_SHORT).show();
         }
     }
@@ -226,7 +227,9 @@ public class ListingFragment extends Fragment implements SearchView.OnQueryTextL
 
     @Override
     public boolean onQueryTextChange(String s) {
-        fragmentListingAdapter.getFilter().filter(s);
+        if (fragmentListingAdapter != null) {
+            fragmentListingAdapter.getFilter().filter(s);
+        }
         return false;
     }
 
