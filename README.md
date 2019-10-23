@@ -1,4 +1,4 @@
-<h1>Android Weather App(Jayway)</h1>
+<h1>Armiee Geo App</h1>
 
 Allows the user to view the current data for reserving and Data were sorting by current user location.
 User can search by date and number of bed rooms.
@@ -11,4 +11,4 @@ MVVM(Model-View-ModelView) architectural pattern was used.
 
 <h2>Screen Gif</h2>
 
-![alt text](screen.gif)
+![alt text](screenGif.gif)
