@@ -1,6 +1,6 @@
 <h1>Armiee Geo App</h1>
 
-Allows the user to view the current data for reserving and Data were sorting by current user location.
+Allows the user to view the current data for reserving and Data were sorting by current user location.</br>
 User can search by date and number of bed rooms.
 </br>
 MVVM(Model-View-ModelView) architectural pattern was used.
