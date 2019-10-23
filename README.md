@@ -11,4 +11,4 @@ MVVM(Model-View-ModelView) architectural pattern was used.
 
 <h2>Screen Gif</h2>
 
-![alt text](screen.gif)
+![alt text](screenGif.gif)
