@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Armiee Geo App</string>
+    <string name="searh_view_default">Search by Number Of Bads</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
